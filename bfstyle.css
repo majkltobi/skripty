@@ -7,6 +7,7 @@
 .discounted-price-container p { margin: 0; }
 span.discount-price {
     font-weight: 700;
+    font-size: 14px;
 }
 
 .p-detail-inner .discounted-price-container {
@@ -22,6 +23,24 @@ span.bf {
     font-size: 12px;
     border: 2px solid #000000;
     border-radius: 5px 5px 0px 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+span.pricebf {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #1E22AA;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    border: 2px solid #1E22AA;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
     margin-bottom: 3px;
     font-weight: 500;
+    }
+
+span.discount-code {
+    font-size: 12px;
 }
