@@ -106,7 +106,7 @@ function displayDiscountedPriceDetail() {
         container.classList.add("discounted-price-container");
 
         const discountInfo = document.createElement("p");
-        discountInfo.innerHTML = `Cena s kódem <span class="discount-code">${discountCode.code}</span>: <span class="discount-price">${discountedPrice} ${currency}</span>`;
+        discountInfo.innerHTML = `<span class="discount-price">Black Friday -25 %</span><br>Cena s kódem <span class="discount-code">${discountCode.code}</span>: <span class="discount-price">${discountedPrice} ${currency}</span>`;
         container.appendChild(discountInfo);
 
         // Přidat slevovou cenu pod hlavní cenu produktu
@@ -201,7 +201,7 @@ function homepageDiscountProducts() {
                 container.classList.add("discounted-price-container");
 
                 const discountInfo = document.createElement("p");
-                discountInfo.innerHTML = `Cena s kódem <span class="discount-code">${discountCode.code}</span>: <span class="discount-price">${discountedPrice} ${currency}</span>`;
+                discountInfo.innerHTML = `<span class="discount-price">Black Friday -25 %</span><br>Cena s kódem <span class="discount-code">${discountCode.code}</span>: <span class="discount-price">${discountedPrice} ${currency}</span>`;
                 container.appendChild(discountInfo);
 
                 // Přidat slevovou cenu pod hlavní cenu produktu
