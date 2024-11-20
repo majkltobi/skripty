@@ -10,7 +10,7 @@ const addToCartVoucher = () => {
 
 // Definujte slevový kód, slevu a kategorii, pro kterou platí
 const discountCode = {
-  code: "BF",
+  code: "BF25",
   discount: 25, // discount in %
   categories: ["in-komplexni-pece", "Narodeniny", "Narozeniny"], // Změňte na skutečný název kategorie
   categoryExcluded: "poukazy",
