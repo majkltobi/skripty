@@ -4,10 +4,14 @@
     text-align: center;
     margin-top: 12px;
 }
-.discounted-price-container p { margin: 0; }
-span.discount-price {
+.discounted-price-container p { 
+    margin: 0; 
+}
+
+.span.discount-price {
     font-weight: 700;
     font-size: 14px;
+    margin-left: 15px;
 }
 
 .p-detail-inner .discounted-price-container {
