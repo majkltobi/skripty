@@ -10,7 +10,7 @@ const addToCartVoucher = () => {
 
 // Definujte slevový kód, slevu a kategorii, pro kterou platí
 const discountCode = {
-  code: "BF",
+  code: "BF25",
   discount: 25, // discount in %
   categories: ["in-komplexni-pece", "Narodeniny", "Narozeniny"], // Změňte na skutečný název kategorie
   categoryExcluded: "poukazy",
@@ -106,7 +106,7 @@ function displayDiscountedPriceDetail() {
         container.classList.add("discounted-price-container");
 
         const discountInfo = document.createElement("p");
-        discountInfo.innerHTML = `<span class="bf">Black Friday -25 %</span><br>Cena s kódem <span class="discount-code">${discountCode.code}</span>: <span class="discount-price">${discountedPrice} ${currency}</span>`;
+        discountInfo.innerHTML = `<span class="bf">Black Friday -25 %</span><br><span class="discount-code">s kódem ${discountCode.code}</span>: <span class="discount-price">${discountedPrice} ${currency}</span>`;
         container.appendChild(discountInfo);
 
         // Přidat slevovou cenu pod hlavní cenu produktu
@@ -201,7 +201,7 @@ function homepageDiscountProducts() {
                 container.classList.add("discounted-price-container");
 
                 const discountInfo = document.createElement("p");
-                discountInfo.innerHTML = `<span class="bf">Black Friday -25 %</span><br>Cena s kódem <span class="discount-code">${discountCode.code}</span>: <span class="discount-price">${discountedPrice} ${currency}</span>`;
+                discountInfo.innerHTML = `<span class="bf">Black Friday -25 %</span><br><span class="discount-code">s kódem ${discountCode.code}</span>: <span class="discount-price">${discountedPrice} ${currency}</span>`;
                 container.appendChild(discountInfo);
 
                 // Přidat slevovou cenu pod hlavní cenu produktu
