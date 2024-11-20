@@ -8,7 +8,7 @@
     margin: 0; 
 }
 
-.span.discount-price {
+span.discount-price {
     font-weight: 700;
     font-size: 14px;
     margin-left: 15px;
@@ -43,7 +43,7 @@ span.pricebf {
     border-radius: 0px 0px 5px 5px;
     margin-bottom: 3px;
     font-weight: 500;
-    }
+}
 
 span.discount-code {
     font-size: 12px;
